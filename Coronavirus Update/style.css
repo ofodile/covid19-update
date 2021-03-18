@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(238, 236, 236);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+ 
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+img{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+};
+
+.container{
+    margin-bottom: 50px;
+    width: 80%;
+    height: 30px;
+    border: 1px solid black;
+    background: red;
+}
+
+div{
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 80%;
+    height: 70px;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+};
+
+
+h5 {
+    width: 80%;
+    height: 20px;
+};
+
+.tips{
+    width: 80%;
+    background: #ffffff;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: #636363;
+    border-left: 2px solid green;
+    box-shadow: 0 0 50px rgb(231, 231, 231);
+}
+/*country page*/
+
+input{
+    width: 90%;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+};
+#myInput {
+    background-image: url('/image/search.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+.list{
+    width: 85%;
+    height: 80px;
+    border: 2px solid rgb(144, 148, 144);
+    border-radius: 20px;
+    font-family: "Gill Sans", sans-serif;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    padding: 10px 10px;
+    color: #636363;
+}
+
+ul{
+    list-style-type: none;
+}
+
+input{
+    display: block;
+    width: 80%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    
+
+
+}
+
+.section{
+    width: 95%;
+    height: 30px;
+    border: 2px solid green;
+    background: white;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 3px;
+}
+
+
+
+input:focus { 
+outline: none !important;
+border-color: white;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-style: bold;
+    font-size: larger;
+}
+
+.links{
+    width: 100%;
+    height: 50px;
+    border: 1px solid white;
+    background: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.inner{
+    width: 35%;
+    display: inline-block;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 0px;
+    background: white;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: white;
+    border: none;
+    color: green;
+}
+
+
+ hr{
+     margin-top: 15px;
+ }
+
+ footer{
+     width: 80%;
+     height: 40px;
+     border: 1x solid black;
+ }
+
+ footer{
+     width: 80%;
+     height: 40px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     color: #636363;
+ }
+
+ .footer{
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ @media only screen and (min-width:600px){
+    li{
+        width: 60%;
+        background: #ffffff;
+        list-style: none;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 8px;
+        padding: 5px 10px;
+        color: #636363;
+        border-left: 3px solid green;
+        box-shadow: 0 0 50px rgb(231, 231, 231);
+     }
+
+     div{
+        margin-bottom: 50px;
+        margin-top: 30px;
+        width: 50%;
+        height: 70px;
+        border: 2px solid green;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    };
+
+    .list{
+        width: 50%;
+        height: 80px;
+        border: 2px solid rgb(144, 148, 144);
+        border-radius: 20px;
+        font-family: "Gill Sans", sans-serif;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background: white;
+        padding: 10px 10px;
+        color: #636363;
+ };
+
+
+};

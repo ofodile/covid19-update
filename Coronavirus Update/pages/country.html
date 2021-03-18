@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="./country.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    nav{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    border: 1px solid white;
+    background: white;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+       @media only screen and (min-width:600px){
+         body{
+            margin: 30px;
+            margin-top: 0;
+         }
+
+         .links{
+    width: 100%;
+    height: 60px;
+    border: 1px solid white;
+    background: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    width: 30%;
+    height: 50px;
+    border: 1px solid white;
+    background: white;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner{
+    width: 30%;
+    display: inline-block;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 0px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+         .list{
+        width: 100%;
+        height: 80px;
+        border: 2px solid rgb(144, 148, 144);
+        border-radius: 20px;
+        font-family: "Gill Sans", sans-serif;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        background: white;
+        padding: 10px 10px;
+        color: #636363;
+ };
+
+ input{
+    display: block;
+    width: 60%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    
+
+
+}
+
+.section{
+    width: 40%;
+    height: 30px;
+    border: 2px solid green;
+    background: white;
+    margin-left:auto ;
+    margin-right:auto ;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 3px;
+}
+
+       }
+    </style>
+</head> 
+     
+<body>
+    <section class="links">
+      <nav>
+         <section class="inner">
+           <a href='../index.html'><button>DASHBOARD</button></a>
+        </section>
+        <section class="inner">
+           <a href='./country.html'><button>BY COUNTRIES</button></a>
+        </section>
+        <section class="inner">
+           <a href="about.html"><button>ABOUT</button></a>
+        </nav>
+      </section>
+        
+     </section>
+    
+       <section class="section">
+            <input id="searchbar"  onkeyup="search_item()" type="text" placeholder="Search"   name="search">
+       </section>
+      <ul id="mydata"></ul>
+      <hr>
+      <footer>
+         <p class="footer">Made By <b>JOSEPH OFODILE</b> | <b>COVID-19 GLOBAL DATA API</b></p>
+     </footer>
+</body>
+</html>

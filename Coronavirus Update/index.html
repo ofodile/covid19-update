@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <style>
+
+        li{
+           width: 80%;
+           background: #ffffff;
+           list-style: none;
+           margin-top: 10px;
+           margin-left: auto;
+           margin-right: auto;
+           border-radius: 8px;
+           padding: 5px 10px;
+           color: #636363;
+           border-left: 3px solid green;
+           box-shadow: 0 0 50px rgb(231, 231, 231);
+        }
+
+        nav{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    border: 1px solid white;
+    background: white;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+        .dark-mode {
+    background-color: black;
+    color: black;
+  }
+
+  @media only screen and (min-width:600px){
+         body{
+            margin: 30px;
+            margin-top: 0;
+         }
+
+         .links{
+    width: 100%;
+    height: 60px;
+    border: 1px solid white;
+    background: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    width: 30%;
+    height: 50px;
+    border: 1px solid white;
+    background: white;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inner{
+    width: 30%;
+    display: inline-block;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 0px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+  }
+    </style>
+</head>
+<body>
+    <section class="links">
+        <nav>
+           <section class="inner">
+             <a href='./index.html'><button>DASHBOARD</button></a>
+          </section>
+          <section class="inner">
+             <a href='./pages/country.html'><button>BY COUNTRIES</button></a>
+          </section>
+          <section class="inner">
+             <a href="./pages/about.html"><button>ABOUT</button></a>
+          </nav>
+        </section>
+          
+       </section>
+        
+     </section>
+    <div class="container">
+        <img src="./image/globe-4442470_1280.png" alt=""><p style="margin-top: 25px"><b>Global Cases:&nbsp;</b><span id="cases"></span></p>
+    </div>
+    <div class="container">
+        <img src="./image/person-icon-blue-13.png" alt=""><p style="margin-top: 25px"><b>Global Deaths:&nbsp;</b><span id="deaths"></span></p>
+    </div>
+    <div class="container">
+        <img src="./image/backup-recovery-recover-time-interface-ui-5-14088.png" alt=""><p style="margin-top: 25px"><b>Global Recovered:&nbsp;</b><span id="recovered"></span></p>
+    </div>
+    <h3 style="text-align: center;">PREVENTIVE MEASURES</h3>
+    <ul style="list-style-type: none;">
+        <li class="tips">Clean your hands often with soap and water</li>
+        <li class="tips">Maintain social distancing</li>
+        <li class="tips">Wear a mask when in going in public</li>
+        <li class="tips">Don’t touch your eyes, nose or mouth</li>
+        <li class="tips">Seek medical attention if you have a fever or cough</li>
+    </ul> 
+    <hr>
+    <footer>
+       
+        <p class="footer">Made By <b>JOSEPH OFODILE</b> | <b>COVID-19 GLOBAL DATA API</b></p>
+    </footer>
+</body>
+</html>
